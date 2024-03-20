@@ -1,0 +1,19 @@
+//
+//  StartBusinessVC.swift
+//  MyTaxi
+//
+//  Created by Abdurazzoqov Islombek on 09/02/24.
+//
+
+import UIKit
+
+class StartBusinessVC: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = .white
+        title = "Biznesingiz"
+        setUpBackButton()
+
+    }
+}
