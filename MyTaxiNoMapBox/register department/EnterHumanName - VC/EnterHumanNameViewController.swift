@@ -60,6 +60,11 @@ class EnterHumanNameViewController: UIViewController {
         setUIElements()
         setSettingsToNavBar()
         setKeyboardSettings()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+            self.textView.becomeFirstResponder()
+        }
+        
     }    
 }
 
